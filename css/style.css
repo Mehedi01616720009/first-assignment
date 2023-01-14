@@ -1,0 +1,220 @@
+/* basic */
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+section {
+    margin-top: 130px;
+    padding: 0 230px;
+}
+
+footer {
+    margin-top: 130px;
+    padding: 130px 230px;
+    background: #151414;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* reusable class */
+.section_title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.btn_primary {
+    height: 64px;
+    font-size: 20px;
+    line-height: 64px;
+    padding: 0 25px;
+    background: #F15B22;
+    border-radius: 5px;
+    border: 0;
+    text-transform: capitalize;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.btn_lite {
+    color: #F15B22;
+    background: #FFF;
+}
+
+/* banner part styles */
+.banner_container {
+    padding: 110px 150px;
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner_data {
+    text-align: right;
+    max-width: 55%;
+}
+
+.banner_title {
+    font-size: 58px;
+    line-height: 68px;
+    color: #151414;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+.banner_des {
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 32px;
+}
+
+/* about part styles */
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.about_content img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.about_data h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.about_data p {
+    color: #444343;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.about_data ul {
+    padding: 0;
+}
+
+.about_data ul li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.about_data ul li i {
+    color: lightgreen;
+}
+
+/* plan part styles */
+.plan_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan_card {
+    text-align: center;
+}
+
+.plan_icon {
+    margin-bottom: 24px;
+}
+
+.plan_card_title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.plan_card_des {
+    font-size: 22px;
+    line-height: 26px;
+    color: #737272;
+}
+
+/* call part styles */
+.call_data {
+    padding: 60px 64px;
+    position: relative;
+    background-image: url('../images/watch.png');
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    z-index: 1;
+}
+
+.call {
+    position: relative;
+    z-index: 2;
+}
+
+.call_title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFF;
+    margin-bottom: 24px;
+}
+
+/* footer styles */
+.footer_title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 10px;
+}
+
+footer .footer_data p {
+    line-height: 26px;
+    color: #FFF;
+    margin-bottom: 16px;
+    width: 500px;
+}
+
+.footer_data ul {
+    display: flex;
+    padding: 0;
+}
+
+.footer_data ul li {
+    list-style: none;
+    margin-right: 17px;
+}
+
+.footer_form_title {
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFF;
+    margin-bottom: 30px;
+}
+
+.footer_form input {
+    padding: 20px;
+    outline: 0;
+    background-color: transparent;
+    color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    width: 250px;
+}

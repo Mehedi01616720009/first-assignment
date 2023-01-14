@@ -175,6 +175,36 @@ footer {
     margin-bottom: 24px;
 }
 
+/* blog styles */
+.blog_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.blog_container img {
+    width: 283px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.blog_container h4 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+
+.blog_container h5 {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 8px;
+}
+
+.blog_container p {}
+
 /* footer styles */
 .footer_title {
     font-weight: 700;
